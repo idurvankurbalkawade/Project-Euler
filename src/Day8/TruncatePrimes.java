@@ -16,6 +16,7 @@ public class TruncatePrimes {
         return true;
     }
 
+    //function to check number is truncatable prime or not
     private static boolean checkTruncatePrime(int n)
     {
         // left to right
@@ -34,6 +35,7 @@ public class TruncatePrimes {
         return true;
     }
 
+    //function to calculate sum of truncatable primes
     public static String sumTruncate()
     {
         long sum = 0;
