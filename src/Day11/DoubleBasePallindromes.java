@@ -54,7 +54,9 @@ public class DoubleBasePallindromes {
     }
 
     public static void main(String[] args) {
-
+        long start = System.currentTimeMillis();
         System.out.println(generateSum());
+        long end = System.currentTimeMillis();
+        System.out.println("Execution Time: "+(end-start)/1000F+" seconds");
     }
 }
