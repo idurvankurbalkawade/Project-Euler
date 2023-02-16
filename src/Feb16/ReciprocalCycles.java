@@ -53,7 +53,9 @@ public class ReciprocalCycles {
     }
 
     public static void main(String[] args) {
-        System.out.println(getCycleLength(7));
+        long start = System.currentTimeMillis();
         System.out.println(getLongestCycle(1000));
+        long end = System.currentTimeMillis();
+        System.out.println("Execution Time: "+(end - start)/1000F+" seconds");
     }
 }
